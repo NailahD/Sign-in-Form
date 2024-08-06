@@ -1,0 +1,79 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: rgb(22, 54, 64); 
+    height: 100vh; 
+    margin: 0;
+    position: relative;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+.login-box {
+    background-color: white;
+    padding: 30px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    border-radius: 8px; 
+    width: 300px; 
+}
+
+h2 {
+    margin: 0;
+    color: darkgray;
+    font-size: 40px;
+    
+}
+
+h3 {
+    margin: 10px 0 20px 0;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+
+
+
+button {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 20px auto; 
+    background-color: rgb(29, 190, 37);
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    background-color: purple;
+}
+
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.forgot-password,
+.create-account {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
